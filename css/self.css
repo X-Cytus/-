@@ -1,0 +1,142 @@
+body {
+    color:#505050;
+    background: #c7ddef;
+    font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+.main-header {
+    text-align: center;
+    padding:50px 90px 5px;
+    background:url("img/1.jpg");
+    background-size: 100%;
+}
+.text-white{
+    color: #ffffff;
+}
+.animation{
+    color: white;
+    transition-duration: 0.5s;
+}
+a:hover{
+    text-decoration: none;
+    color:#808080;
+}
+.sidebar {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.sidebar-content {
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 4px #aaa;
+}
+.card {
+    border-radius: 3px;
+    background: #fff;
+    color: #555;
+    text-align: center;
+    box-shadow: 0px 1px 2px  #000;
+    margin-top: 12px;
+}
+.card .header {
+    background-position: top left;
+    background-image:url("/img/fengping.jpg");
+    background-size: cover;
+    height: 148px;
+}
+.card .avater {
+    display: inline-block;
+    margin-top: -40px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 1px #ffffff;
+    border-radius: 100%;
+    border: 3px #fff solid;
+    overflow: hidden;
+}
+.card img {
+    display: block;
+    width: 80px;
+    height: 80px;
+
+}
+.card h3 {
+    margin: 10px 0 20px;
+    color: #111;
+}
+.card ul {
+    list-style-type:  none;
+    border-top:1px #eee solid;
+    margin: 0;
+    padding: 0;
+}
+.card ul li {
+    float:left;
+    width: 33%;
+    padding: 8px 0;
+    border-left: 1px #eee solid;
+}
+.card ul li b{
+    font-size: 17px;
+    color: #111;
+}
+div.post {
+    background:#f8f8f8;
+    margin-bottom: 30px;
+    padding: 20px 35px;
+    box-shadow: 0 1px 4px #aaa;
+    overflow: hidden;
+}
+
+div.post .featured {
+    display: block;
+    float:right;
+    width: 0;
+    height: 0;
+    border-right: 20px black solid ;
+    border-bottom: 20px solid transparent;
+    margin-top: -20px;
+    margin-right: -38px;
+}
+div.main-content {
+    padding-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.post h3{
+    color: black;
+}
+.nav-info .posts-info {
+    font-size: 24px;
+    color: #353535;
+    padding: 10px 0px 5px 0px;
+}
+p{
+    color: black;
+
+}
+div.main-footer {
+    margin: 20px 0 0 0;
+    background: url("img/2.jpg");
+    border-top: 3px black solid;
+    background-size: 100%;
+
+}
+div.main-footer .logo {
+    font-weight: bold;
+    color: #eee;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    padding: 8px 16px;
+    font-size: 19px;
+}
+div.main-footer p {
+    margin: 0;
+    padding: 40px 10px 50px 15%;
+    color: #ccc;
+    font-size: 20px;
+}
+
+
